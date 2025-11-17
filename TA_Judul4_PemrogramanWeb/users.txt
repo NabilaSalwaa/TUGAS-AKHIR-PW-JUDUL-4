@@ -1,0 +1,1 @@
+a:1:{s:12:"nabila salwa";a:5:{s:2:"id";s:8:"salwa001";s:8:"username";s:12:"nabila salwa";s:5:"email";s:17:"admin@example.com";s:8:"password";s:60:"$2y$10$GkHtfUBsWBT2AC4bQHSCNuLvC66EWtPzXfGjGYag3W35sqHbl2VrC";s:10:"created_at";s:19:"2025-11-17 15:41:05";}}
