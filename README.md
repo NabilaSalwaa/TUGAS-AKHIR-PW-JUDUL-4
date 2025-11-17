@@ -18,23 +18,23 @@ Sistem Manajemen Kontak Sederhana adalah aplikasi web berbasis PHP yang memungki
 
 📁 Struktur Folder Sistem Manajemen Kontak
 
-🎯 FILE UTAMA
+🎯 File Utama
 index.php - Halaman pertama yang diakses user
 login.php - Form login dan autentikasi
 register.php - Pendaftaran user baru
 dashboard.php - Dashboard utama setelah login
 logout.php - Proses logout dan clear session
 
-📞 MANAJEMEN KONTAK
+📞 Manajemen Kontak
 add_contact.php - Form tambah kontak baru
 edit_contact.php - Form edit data kontak
 delete_contact.php - Proses hapus kontak
 
-👤 MANAJEMEN USER
+👤 Manajemen User
 update_user.php - Update profil user
 reset_user.php - Reset password/data user
 
-💾 PENYIMPANAN DATA
+💾 Penyimpanan Data
 📂 Folder Uploads
 uploads/ - Folder utama penyimpanan file
 profile/ - Foto profil kontak
