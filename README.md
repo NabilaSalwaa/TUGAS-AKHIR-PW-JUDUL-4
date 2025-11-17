@@ -17,25 +17,28 @@ Sistem Manajemen Kontak Sederhana adalah aplikasi web berbasis PHP yang memungki
 🔍 Filter & Pencarian - Filter berdasarkan email dan nama
 
 📁 Struktur Folder Sistem Manajemen Kontak
-sistem-manajemen-kontak/
-│
-├── 📄 index.php                 # Halaman utama/landing page
-├── 🔐 login.php                 # Halaman login user
-├── 📝 register.php              # Halaman registrasi user baru
-├── 🏠 dashboard.php             # Dashboard utama setelah login
-│
-├── 👥 add_contact.php           # Form tambah kontak baru
-├── ✏️ edit_contact.php          # Form edit kontak yang ada
-├── 🗑️ delete_contact.php        # Proses hapus kontak
-│
-├── 👤 update_user.php           # Update profil user
-├── 🔄 reset_user.php            # Reset data user
-├── 🚪 logout.php                # Proses logout user
-│
-├── 📁 uploads/                  # Folder penyimpanan file upload
-│   ├── 🖼️ profile/              # Foto profil kontak (jika ada)
-│   
-├── 📄 contacts_salwa001.txt     # Database kontak (format: ID|nama|email|telepon|alamat|foto)
-├── 📄 users.txt                 # Database user (format: username|password|email|role)
-│
-└── 📚 README.md                 # Dokumentasi sistem
+
+🎯 FILE UTAMA
+index.php - Halaman pertama yang diakses user
+login.php - Form login dan autentikasi
+register.php - Pendaftaran user baru
+dashboard.php - Dashboard utama setelah login
+logout.php - Proses logout dan clear session
+
+📞 MANAJEMEN KONTAK
+add_contact.php - Form tambah kontak baru
+edit_contact.php - Form edit data kontak
+delete_contact.php - Proses hapus kontak
+
+👤 MANAJEMEN USER
+update_user.php - Update profil user
+reset_user.php - Reset password/data user
+
+💾 PENYIMPANAN DATA
+📂 Folder Uploads
+uploads/ - Folder utama penyimpanan file
+profile/ - Foto profil kontak
+
+📄 File Database
+contacts_salwa001.txt - Database kontak
+users.txt - Database user dan kredensial
